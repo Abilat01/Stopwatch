@@ -23,6 +23,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         pauseButton.isHidden = true
         startButton.isHidden = false
+        
+        
+        startButton.layer.cornerRadius = startButton.frame.size.height / 2
+        stopButton.layer.cornerRadius = stopButton.frame.size.height / 2
+        pauseButton.layer.cornerRadius = pauseButton.frame.size.height / 2
+        
     }
 
 
